@@ -1,4 +1,6 @@
 module Erasmus
+  require 'erasmus/pair'
+
   def self.conv_s(year)
     raise ArgumentError, 'Argument is not numeric' unless year.is_a? Numeric
 
@@ -20,5 +22,3 @@ module Erasmus
     end
   end
 end
-
-require 'erasmus/pair'
