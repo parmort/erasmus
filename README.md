@@ -29,7 +29,10 @@ require 'warpera'
 When working directly with the numbers and strings, use the `conv_s` and
 `conv_i` methods.
 
-When needing control over the year and era, use the `Warpera::Pair` class.
+When needing control over the year and era, use the `Warpera::Pair` class. This
+is helpful, for instance, dealing with storing a year in a database. Instead of
+potentially storing two fields for one attribute, use this to store one field
+for the one attribute.
 
 ## Development
 
