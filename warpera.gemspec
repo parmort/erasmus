@@ -28,7 +28,7 @@ Gem::Specification.new do |s|
   s.metadata = {
     "bug_tracker_uri"   => "https://github.com/parmort/warpera/issues",
     "changelog_uri"     => "https://github.com/parmort/warpera/blob/master/CHANGELOG.md",
-    "documentation_uri" => "https://www.example.info/gems/bestgemever/0.0.1",
+    "documentation_uri" => "https://rubydoc.info/gems/warpera",
     "homepage_uri"      => "https://github.com/parmort/warpera",
     "source_code_uri"   => "https://github.com/parmort/warpera"
   }
