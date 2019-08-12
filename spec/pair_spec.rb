@@ -1,13 +1,13 @@
-require 'erasmus'
+require 'warpera'
 
-RSpec.describe Erasmus::Pair do
-  subject { Erasmus::Pair.new(year: 2019, era: :ce) }
+RSpec.describe Warpera::Pair do
+  subject { Warpera::Pair.new(year: 2019, era: :ce) }
 
   it 'stores a year and an era' do
     year = 2019
     era = :ce
 
-    pair = Erasmus::Pair.new(year: year, era: era)
+    pair = Warpera::Pair.new(year: year, era: era)
 
     expect(pair.year).to eq year
     expect(pair.era).to eq era
@@ -18,7 +18,7 @@ RSpec.describe Erasmus::Pair do
       year = '2019'
 
       expect{
-        Erasmus::Pair.new(year: year, era: :ce)
+        Warpera::Pair.new(year: year, era: :ce)
       }.to raise_error ArgumentError
     end
 
@@ -26,7 +26,7 @@ RSpec.describe Erasmus::Pair do
       year = -2019
 
       expect {
-        Erasmus::Pair.new(year: year, era: :ce)
+        Warpera::Pair.new(year: year, era: :ce)
       }.to raise_error ArgumentError
     end
 
@@ -34,7 +34,7 @@ RSpec.describe Erasmus::Pair do
       era = 'ce'
 
       expect {
-        Erasmus::Pair.new(year: 2019, era: era)
+        Warpera::Pair.new(year: 2019, era: era)
       }.to raise_error ArgumentError
     end
 
@@ -42,7 +42,7 @@ RSpec.describe Erasmus::Pair do
       era = :ad
 
       expect {
-        Erasmus::Pair.new(year: 2019, era: era)
+        Warpera::Pair.new(year: 2019, era: era)
       }.to raise_error ArgumentError
     end
   end

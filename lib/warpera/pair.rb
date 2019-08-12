@@ -1,4 +1,4 @@
-module Erasmus
+module Warpera
   class Pair
     attr_accessor :year, :era
 

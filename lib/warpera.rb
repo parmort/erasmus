@@ -1,5 +1,5 @@
-module Erasmus
-  require 'erasmus/pair'
+module Warpera
+  require 'warpera/pair'
 
   def self.conv_s(year)
     raise ArgumentError, 'Argument is not numeric' unless year.is_a? Numeric

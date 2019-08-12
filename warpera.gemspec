@@ -1,15 +1,15 @@
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "erasmus/version"
+require "warpera/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "erasmus"
-  spec.version       = Erasmus::VERSION
+  spec.name          = "warpera"
+  spec.version       = Warpera::VERSION
   spec.authors       = ["Nolan Prochnau"]
   spec.email         = ["parvus.mortalis@gmail.com"]
 
   spec.summary       = "A gem that makes working with years in different eras palatable"
-  spec.homepage      = "https://github.com/parmort/erasmus"
+  spec.homepage      = "https://github.com/parmort/warpera"
   spec.license       = "MIT"
 
   # Specify which files should be added to the gem when it is released.
