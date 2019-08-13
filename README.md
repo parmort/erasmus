@@ -1,5 +1,7 @@
 # Warpera
 
+![Gem](https://img.shields.io/gem/v/warpera?color=firebrick&style=flat-square)
+
 A gem that makes working with years in different eras palatable
 
 ## Installation
